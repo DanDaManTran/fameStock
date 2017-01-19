@@ -1,0 +1,14 @@
+{
+  "name": "famestocks",
+  "version": "1.0.0",
+  "description": "Looking up famous people tweets that has company names, and comparing that company for the next 20 days",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "twitter": "^1.7.0"
+  }
+}
