@@ -1,15 +1,8 @@
 //different required packaged that is needed for this app
 var request = require("request");
 var Twitter = require('twitter');
-var fs = require("fs");
-var Company = require('company-finder');
 
-var company = new Company();
-var info = {
-	date: "",
-	tweet: [],
-	companyCheck: ""
-}
+var fs = require('fs');
 
 //this function will run if the action is mytweets so it can go into the tweeter api
 // function tweets() {
@@ -45,14 +38,6 @@ var info = {
 // company.find("nintendo", function(err, response) {
 //   console.log(response);
 // });
-
-var tickertape = require('tickertape');
-var getSymbol = tickertape.getSymbol;
-var getName = tickertape.getName;
-
-var companyName = "Walmart";
-var companySymbol = getSymbol(companyName);
-console.log(companyName+ ': ' + companySymbol);
 
 //https://www.programmableweb.com/api/stock-quote/sdks stock api that we might use
 
